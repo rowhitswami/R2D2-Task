@@ -1,0 +1,19 @@
+.space {
+         margin-top: 50px;
+}
+
+
+
+
+.background-image {
+  overflow-x: hidden;;
+  background-image: url("/img/background.png");
+  /*background-position: center; */
+  background-repeat: no-repeat; 
+  background-size: cover;
+} 
+
+
+.input-field label {
+     color: indigo;
+}

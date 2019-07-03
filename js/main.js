@@ -51,7 +51,7 @@ $(document).ready(function () {
 								            <p><b>Genre: </b>` + genres + `</p>
 										  </div>
 								          <div class="card-action center">
-								            <a class="btn-floating pulse waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
+								            <a class="btn-floating pulse waves-effect waves-light indigo modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
 								           </div>           
 							          </div>
 							        </div>
