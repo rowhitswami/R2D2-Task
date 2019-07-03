@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 	var movie_title = {};
 
-	$.getJSON('../movies.json', function (json) {
+	$.getJSON('movies.json', function (json) {
 
 		// Loop to iterate title of the movie
 		var i;
@@ -20,7 +20,7 @@ $(document).ready(function () {
 		data: movie_title,
 		onAutocomplete: function (val) {
 			var request = new XMLHttpRequest();
-			request.open("GET", "../movies.json", false);
+			request.open("GET", "movies.json", false);
 			request.send(null)
 			var my_JSON_object = JSON.parse(request.responseText);
 			for (k = 0; k < my_JSON_object.length; k++) {
